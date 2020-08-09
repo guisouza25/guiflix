@@ -14,15 +14,13 @@ const Main = styled.main`
 
 function PageDefault(props) {
     return (
-        <div> {/*todo componente precisa ter uma estrutura em volta*/}
-
-        <Main>
-            <Menu />
+        <> {/*todo componente precisa ter uma estrutura em volta*/}
+            <Main>
+                <Menu />
                 {props.children}
-            <Footer />
-        </Main>
-
-        </div>
+                <Footer />
+            </Main>
+        </>
     );
 }
 
